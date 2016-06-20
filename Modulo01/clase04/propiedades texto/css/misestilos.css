@@ -1,0 +1,38 @@
+body{
+	font-family: arial;
+}
+.parrafo1{
+font-size: 20px;
+color: #ff4556;
+text-align: center;
+text-transform: uppercase;
+word-spacing: 5px;
+text-decoration: underline;
+text-indent: 100px;
+font-weight: bold;
+
+}
+.parrafo2{
+font-size: 26px;
+color: orange;
+text-align: left;
+text-transform: lowercase;
+letter-spacing: 10px;
+ text-indent: 100px;
+}
+.parrafo3{
+line-height:1.6;
+text-transform: capitalize;
+font-size: 30px;
+color: black;
+text-align: right;
+/*text-align: justify;*/
+}
+.ui-enlace{
+	text-decoration: none;
+}
+
+.ui-precio {
+	text-decoration: line-through;
+	color: red;
+}

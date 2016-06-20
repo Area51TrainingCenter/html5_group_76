@@ -1,0 +1,32 @@
+body{
+	font-family: arial;
+
+}
+.ui-titulo{
+	font-size: 35px;
+	
+	color: gray;
+}
+.ui-parrafo{
+	font-size: 35px;
+	
+	color: black;
+}
+.ui-marcado{
+	color: blue;
+	font-size: 20px;
+}
+
+
+.ui-lista-elementos{
+	color: red;
+}
+
+
+.ui-lista-elementos li{
+	color: red;
+}
+
+.item{
+	color: blue;
+}

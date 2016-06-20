@@ -1,0 +1,32 @@
+.ui-box{
+	width: 200px;
+	height: 200px;
+	/*background-color: red;*/
+	/*background-color: #ff4455;*/
+	/*background-color:rgb(15,100,50);*/
+	/*background-color: hsl(119, 31%, 60%)*/
+	/*background-color: rgba(12,100,40,0.5)*/
+	background-color: hsla(119, 31%, 60%,0.4)
+
+
+}
+
+body{
+	font-family: arial;
+}
+.ui-bar-top{
+	background-color: hsl(119, 31%, 60%);
+	text-align: center;
+	padding: 5px;
+}
+
+.ui-bar-top span{
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+
+}
+
+.ui-bar-top .ui-descuento{
+	color: red;
+}

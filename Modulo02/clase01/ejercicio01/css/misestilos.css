@@ -1,0 +1,77 @@
+body{
+	font-family: arial;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.caja-centro{
+	width: 970px;
+	margin:0 auto;
+}
+
+.ui-info-titulo{
+	
+}
+
+.header-sup{
+	padding: 20px 10px;
+}
+.ui-title-site{
+	color: rgb(100,189,231);
+	font-weight: bold;
+	font-size: 40px;
+	display: inline-block;
+	vertical-align: top;
+	width: 460px;
+}
+.ui-title-site span{
+    color: rgb(159,159,159);
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.ui-info-contact{
+	display: inline-block;
+	vertical-align: top;
+	width: 460px;
+	text-align: right;
+}
+.ui-icono-phone {
+	width: 25px;
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+
+.ui-info-contact .ui-number{
+	font-size: 20px;
+
+}
+
+.ui-info-contact .ui-info {
+ color: rgb(159,159,159);
+ display: inline-block;
+ margin-top: 5px;
+}
+
+
+.ui-info-nav{
+	background-color: rgb(68,69,73);
+}
+ 
+
+ .menu-site li{
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	padding: 10px 15px;
+ 	/*background-color: rgb(100,189,231);*/
+ 	color: white;
+	border-right: 1px solid gray;
+ }	
