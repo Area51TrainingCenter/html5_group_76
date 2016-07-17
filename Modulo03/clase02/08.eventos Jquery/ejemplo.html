@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selectores en JS</title>
+	<link rel="stylesheet" type="text/css" href="../estilos.css">
+	<script src="../jquery-3.1.0.js"></script>
+
+	<style>
+	.opciones li
+	{	display: inline-block;
+		vertical-align: top;
+		font-size: 20px;
+		font-weight: bold;
+		margin: 0px 20px;
+		border-radius: 10px;
+		padding: 20px;
+		cursor: pointer;
+		transition: all 0.3s linear;
+		}
+		.img-noticias , .img-deportes{
+			width: 400px;
+			margin: auto;
+		}
+
+		.img-noticias img , .img-deportes img{
+			width: 400px;
+		}
+		.opciones{
+			text-align: center;
+		}
+		.activo{
+			background-color: skyblue;
+
+		}
+		.img-deportes , .img-ciencia , .img-cultura{
+			display: none;
+		}
+		</style>
+</head>
+<body>
+<div class="container">
+
+		<ul class="opciones">
+			<li class="op-noticias activo" data-seccion="img-noticias-bloque" data-opcion="1">Noticias</li>
+			<li class="op-deportes" data-seccion="img-deportes" data-opcion="2">Deportes</li>
+			<li class="op-ciencia " data-seccion="img-ciencia" data-opcion="3">Ciencia</li>
+			<li class="op-cultura" data-seccion="img-cultura" data-opcion="4">Cultura</li>
+
+		</ul>
+
+	<div class="img-noticias box-contenido">
+		<img id="foto-cambio" src="imagen1.jpg">
+	</div>
+	<div class="img-deportes box-contenido">
+		<img id="foto-cambio" src="imagen2.jpg">
+	</div>
+	<div class="img-ciencia box-contenido">
+		<img id="foto-cambio" src="imagen1.jpg">
+	</div>
+	<div class="img-cultura box-contenido">
+		<img id="foto-cambio" src="imagen2.jpg">
+	</div>
+
+</div>
+
+</body>
+</html>
+<style>
+	.mostrar{
+		/*display: block!important;*/
+	opacity: 1;
+	}
+	.ocultar{
+		/*display: none!important;*/
+		opacity: 0;
+	}
+</style>
+<script>
+/*
+setInterval(alerta,2000)
+	function alerta(){
+		
+
+	}*/
+
+
+
+
+
+$(".opciones li").click(function (){
+	$(".opciones li").removeClass("activo")
+	$(this).addClass("activo");
+var seccion=$(this).attr("data-seccion");
+/*var seccion="img-noticias"
+*/
+$(".box-contenido").hide();
+$("."+seccion).show();
+/*$(".img-noticias").show();
+*/
+	//console.log($(this).attr("data-seccion"));
+})
+
+
+
+
+
+</script>

@@ -1,0 +1,41 @@
+<html>
+	<head></head>
+	<body>
+		<div class="container">
+			<ul>
+				<li>[before]Item1[after]</li>
+				<li>Item1</li>
+				<li>Item1</li>
+				<li>Item1</li>
+				<li>Item1</li>
+				
+			</ul>
+		</div>
+	</body>
+</html>
+
+<style>
+	.container{
+		width: 970px;
+		margin: 0 auto;
+	}
+	ul{
+		list-style-type: none;
+	}
+	ul li:before{
+	/*content:url(check.png);*/
+	content:""; 
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	background: url(check.png);
+	background-size: cover;
+	}
+	ul li:after{
+	content: ".- ";
+	color: red;
+	font-size: 30px;
+	}
+
+</style>

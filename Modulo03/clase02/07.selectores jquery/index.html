@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selectores en JS</title>
+	<link rel="stylesheet" type="text/css" href="../estilos.css">
+	<script src="../jquery-3.1.0.js"></script>
+</head>
+<body>
+<div class="container">
+
+	<ul>
+		<li class="elemento1">Azul</li>
+		<li class="elemento2">Rojo</li>
+		<li class="elemento3">Verde</li>
+		<li class="cambiar-imagen">cambiar</li>
+		<li class="regresar-imagen">Regresar</li>
+	</ul>
+
+	<img id="foto-cambio" src="imagen1.jpg">
+
+</div>
+
+</body>
+</html>
+<style>
+	.fondo-azul{
+		background: blue;
+		font-family:arial;
+		color:white
+	}
+</style>
+<script>
+	$(".elemento1").click(tarea1)
+	function tarea1(){
+		//$("body").addClass("fondo-azul");
+		$("body").attr("style","background:red;");
+	}
+
+	$(".elemento2").click(function (){
+		$("body").attr("style","background:blue");
+	});
+	
+	$(".elemento3").click(function (){
+		$("body").attr("style","background:green");
+	});
+	
+$(".cambiar-imagen").click(function(){
+
+ $("#foto-cambio").attr("src","imagen2.jpg");
+})
+	
+$(".regresar-imagen").click(function(){
+
+ $("#foto-cambio").attr("src","imagen1.jpg");
+})
+	
+
+</script>

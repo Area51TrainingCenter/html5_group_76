@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos en JS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../estilos.css">
+
+</head>
+<body>
+<div class="container">
+		<h1>Estructura Switch</h1>
+		<p>
+			La estructura Switch es una forma mas practica de poder evaluar condiciones , cuando esta depende solo de una variable, es muy pareceida a la estructura if , y en algunos caso es mejor trabajar con ella.
+		</p>
+		
+
+		<h2>
+			Estrcutura
+		</h2>
+
+		<p>
+			el Switch contara con la siguiente estructura :
+
+			<br>
+			<code>
+			<pre>
+			switch(variable) {
+			  case valor_1:
+			    ...
+			    break;
+			  case valor_2:
+			    ...
+			    break;
+			  ...
+			  case valor_n:
+			    ...
+			    break;
+			  default:
+			    ...
+			    break;
+			}
+			</pre></code>
+
+			<span>En donde :</span>
+			<ul>
+
+				<li>Dentro del switch se definen todas las comparaciones que se quieren realizar sobre el valor de la variable. Cada comparación se indica mediante la palabra reservada case seguida del valor con el que se realiza la comparación. Si el valor de la variable utilizada por switch coincide con el valor indicado por case, se ejecutan las instrucciones definidas dentro de ese case.</li>
+<li>Normalmente, después de las instrucciones de cada case se incluye la sentencia break para terminar la ejecución del switch, aunque no es obligatorio. Las comparaciones se realizan por orden, desde el primer case hasta el último, por lo que es muy importante el orden en el que se definen los case.</li>
+<li>¿Qué sucede si ningún valor de la variable del switch coincide con los valores definidos en los case? En este caso, se utiliza el valor default para indicar las instrucciones que se ejecutan en el caso en el que ningún case se cumpla para la variable indicada.
+</li>
+			</ul>
+		</p>
+
+		
+</div>
+<script type="text/javascript" src="ejemplo.js"></script>
+</body>
+</html>

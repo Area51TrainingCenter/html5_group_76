@@ -1,0 +1,43 @@
+
+/** responsive **/
+/*
+@media screen and (min-width: 679px) and (max-width: 970px){
+	.container{
+		width: 100%;
+		background-color: blue;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 678px){
+	.container{
+		width: 100%;
+		background-color: orange;
+	}
+}
+*/
+
+@media screen and (max-width: 970px){
+	.container{
+		width: 100%;
+		background-color: orange;
+	}
+}
+@media screen and (max-width: 768px){
+	.container{
+	
+		background-color: blue;
+	}
+}
+@media screen and (max-width: 620px){
+	.container{
+	
+		background-color: skyblue;
+	}
+}
+@media screen and (max-width: 480px){
+	.container{
+		
+		background-color: yellow;
+	}
+}
+

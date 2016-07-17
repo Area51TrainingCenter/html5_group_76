@@ -1,0 +1,47 @@
+<html>
+	<head></head>
+	<body>
+		
+		<article class="item">
+			<img src="articulo.jpg" alt="">
+		<!--	<h2 class="ui-title">15 stylish cat beds for the fancy feline in your life</h2>-->
+			<div class="sombra"></div>
+		</article>
+	</body>
+</html>
+<style>
+.item{
+	width: 356px;
+		height: 205px;
+	position: relative;
+	background-color: red;
+	overflow: hidden;
+}
+.ui-title{
+	position: absolute;
+	bottom: 0px;
+	color: white;
+	font-size: bold;
+	font-family: arial;
+	z-index: 200;
+	padding: 5px;
+	margin: 0px;
+}
+.sombra{
+	width: 356px;
+	height: 205px;
+	background:-webkit-linear-gradient(transparent,transparent, black);
+	background:-o-linear-gradient(transparent,transparent, black);
+	background:-moz-linear-gradient(transparent,transparent, black);
+	background:linear-gradient(transparent,transparent, black);
+	position: absolute;
+	top: 205px;
+	left: 0px;
+	z-index: 100;
+	transition: all 0.3s linear;
+		}
+
+.item:hover .sombra{
+	top: 0px!important;
+}
+</style>

@@ -1,0 +1,27 @@
+body{
+	font-family: arial;
+}
+.container{
+	width: 970px;
+	margin: 0 auto;
+	padding-bottom: 300px;
+}
+
+.title-ejemplo{
+	font-size: 20px;
+	font-family: arial;
+	text-align: center;
+	padding:40px;
+}
+
+.ui-parrafo{
+	font-size: 16px;
+	padding: 15px;
+}
+.propiedades{
+	padding-left: 20px;
+
+}
+.propiedades li {
+	margin: 15px 5px;
+}

@@ -1,0 +1,55 @@
+
+
+@media screen and (max-width: 970px){
+	.container{
+		width: 100%;
+		background-color: orange;
+	}
+	.info{
+	width:100%;
+
+	}
+	.publicidad{
+		width: 300px;
+		display: none;
+	}
+}
+
+@media screen and (max-width: 850px){
+	.ui-list li{
+		display: block;
+	}
+	.ui-list li{
+		display: none;
+		
+		text-align: right;
+		padding-right: 10px;
+	}
+	.ui-list li.nav-ico{
+	display: block;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+
+	.info{
+	width:100%;
+
+	}
+	.publicidad{
+		width:100%;
+	}
+
+
+}
+
+@media screen and (max-width: 360px){
+.publicidad{
+		width: 300px;
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+
+	}
